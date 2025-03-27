@@ -100,8 +100,8 @@ body {
   background-color: #0f172a;
 }
 .gallery {
-  padding: 100px;
-  margin: 40px;
+  padding: 10px;
+  margin: 10px;
 }
 .gallery img {
   width: 400px;
@@ -138,11 +138,13 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 30px;
+  margin-left: 70px;
 }
 
-.story-image img {
-  width: 1900px;
-  min-height: 550px;
+.story-image img { 
+ width:1900px;
+ height:550px;
+
 }
 .team-work {
   display: flex;
