@@ -141,7 +141,8 @@ body {
 }
 
 .story-image img { 
- width:1850px;
+ /* width:1850px; */
+ min-width: 1700px;
  height:400px;
 
 }
