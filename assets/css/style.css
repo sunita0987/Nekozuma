@@ -88,15 +88,14 @@ body {
   font-size: 16px;
   cursor: pointer;
 }
-
 .btn:hover {
   background-color: #2563eb;
 }
-.corner-image{
-width: 300px;
-height: 411px;
-margin-left: -150%;
-margin-top: 250px;
+.corner-image {
+  width: 300px;
+  height: 411px;
+  margin-left: -150%;
+  margin-top: 250px;
 }
 .hero-image img {
   width: 100%;
@@ -124,20 +123,17 @@ margin-top: 250px;
   min-height: 100vh;
   background-color: #0f172a;
 }
-
 .story-container {
   text-align: center;
   padding: 50px 20px;
   max-width: 900px;
   margin: 100px;
 }
-
 .story-title {
   font-family: "Franklin Gothic Heavy";
   font-size: 43px;
   color: #3586ff;
 }
-
 .story-description {
   width: 888px;
   min-height: 100px;
@@ -145,17 +141,19 @@ margin-top: 250px;
   color: #d5e6ff;
   margin-top: 20px;
 }
+.story-description2{
+width:1030px;
+font-family: 'Sarabun';
+color: #D5E6FF;
+}
 .story-image {
   display: flex;
   justify-content: center;
   margin-top: 30px;
 }
-
-.story-image img { 
- /* width:1850px; */
- min-width: 1700px;
- height:400px;
-
+.story-image img {
+  min-width: 1700px;
+  height: 400px;
 }
 .team-work {
   display: flex;
@@ -168,14 +166,12 @@ margin-top: 250px;
   width: 1200px;
   margin: auto;
 }
-
 .team-title {
   font-family: "Franklin Gothic Heavy";
   font-size: 43px;
   margin-left: 50%;
   color: #3586ff;
 }
-
 .team-title::before {
   content: "";
   display: block;
@@ -186,7 +182,6 @@ margin-top: 250px;
   margin-bottom: 10%;
   margin-left: -5%;
 }
-
 .team-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -194,15 +189,12 @@ margin-top: 250px;
   justify-content: center;
   margin-top: 30px;
 }
-
 .team-member {
   transition: transform 0.3s ease-in-out;
 }
-
 .team-member img {
   width: 100%;
 }
-
 .member-role {
   font-family: "Franklin Gothic Heavy";
   font-size: 24px;
@@ -210,7 +202,6 @@ margin-top: 250px;
   text-align: center;
   margin-top: 15px;
 }
-
 .member-name {
   font-family: "Sarabun";
   text-align: center;
@@ -218,7 +209,6 @@ margin-top: 250px;
   color: #d5e6ff;
   margin-top: 10px;
 }
-
 .member-description {
   margin-top: 10px;
   font-family: "Sarabun";
@@ -226,7 +216,6 @@ margin-top: 250px;
   text-align: center;
   color: #d5e6ff;
 }
-
 .twitter-icon {
   margin-top: 10px;
   margin-left: 100px;
@@ -235,14 +224,12 @@ margin-top: 250px;
   width: 20px;
   height: 20px;
 }
-
 .footer-1 {
   display: flex;
   align-items: center;
   min-height: 50vh;
   background-color: #245aab;
 }
-
 .footer-title {
   margin-left: 50%;
   font-family: "Franklin Gothic Heavy";
@@ -251,12 +238,10 @@ margin-top: 250px;
   color: #ffffff;
   margin-bottom: 20px;
 }
-
 .social-icons {
   margin-top: 100px;
   margin-left: -120px;
 }
-
 .icon {
   display: inline-block;
   width: 40px;
@@ -266,47 +251,37 @@ margin-top: 250px;
   background-repeat: no-repeat;
   background-position: center;
 }
-
 .discord {
   background-image: url(/assets/images/discord1.svg);
 }
-
 .twitter {
   background-image: url(/assets/images/tw1.svg);
 }
-
-
 @media (max-width: 600px) {
   .footer-title {
     font-size: 18px;
   }
-
   .icon {
     width: 30px;
     height: 30px;
   }
 }
-
 @media (max-width: 768px) {
   .team-title {
     font-size: 1.8rem;
   }
-
   .team-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   }
 }
-
 @media (max-width: 768px) {
   .story-title {
     font-size: 1.5rem;
   }
-
   .story-description {
     font-size: 0.9rem;
   }
 }
-
 @media (max-width: 600px) {
   .gallery {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -317,11 +292,9 @@ margin-top: 250px;
     flex-direction: column;
     text-align: center;
   }
-
   .hero-text {
     width: 100%;
   }
-
   .hero-image {
     margin-top: 20px;
   }
