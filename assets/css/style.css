@@ -170,6 +170,146 @@ body {
   width: 1900px;
   min-height: 550px;
 }
+.team-work {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+.team-container {
+  padding: 10px 20px;
+  width: 1200px;
+  margin: auto;
+}
+
+.team-title {
+  font-family: "Franklin Gothic Heavy";
+  font-size: 43px;
+  margin-left: 50%;
+  color: #3586ff;
+}
+
+.team-title::before {
+  content: "";
+  display: block;
+  width: 160px;
+  height: 2px;
+  background-color: #4da6ff;
+  margin: 10px auto 0;
+  margin-bottom: 10%;
+  margin-left: -5%;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.team-member {
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-member img {
+  width: 100%;
+}
+
+.member-role {
+  font-family: "Franklin Gothic Heavy";
+  font-size: 24px;
+  color: #3586ff;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.member-name {
+  font-family: "Sarabun";
+  text-align: center;
+  font-size: 14px;
+  color: #d5e6ff;
+  margin-top: 10px;
+}
+
+.member-description {
+  margin-top: 10px;
+  font-family: "Sarabun";
+  line-height: 18px;
+  text-align: center;
+  color: #d5e6ff;
+}
+
+.twitter-icon {
+  margin-top: 10px;
+  margin-left: 100px;
+}
+.twitter-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-1 {
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #245aab;
+}
+
+.footer-title {
+  margin-left: 50%;
+  font-family: "Franklin Gothic Heavy";
+  font-size: 21.6413px;
+  letter-spacing: 0.11em;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin-top: 100px;
+  margin-left: -120px;
+}
+
+.icon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discord {
+  background-image: url(/assets/images/discord1.svg);
+}
+
+.twitter {
+  background-image: url(/assets/images/tw1.svg);
+}
+
+
+@media (max-width: 600px) {
+  .footer-title {
+    font-size: 18px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .team-title {
+    font-size: 1.8rem;
+  }
+
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
 @media (max-width: 768px) {
   .story-title {
     font-size: 1.5rem;
