@@ -99,14 +99,14 @@ body {
 
 .btn {
   margin-top: 40px;
-  width:150px;
-  height:35px;
-  background: #245AAB;
-border-radius: 9px;
+  width: 150px;
+  height: 35px;
+  background: #245aab;
+  border-radius: 9px;
   border: none;
-  font-family: 'Sarabun';
-  color:#ffffff;
-  font-size: 16px;  
+  font-family: "Sarabun";
+  color: #ffffff;
+  font-size: 16px;
   cursor: pointer;
 }
 
@@ -121,23 +121,69 @@ border-radius: 9px;
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background-color: aliceblue;
+  background-color: #ffffff;
 }
 .gallery {
-    padding: 50px;
-    margin: auto;
+  padding: 50px;
+  margin: auto;
 }
 
 .gallery img {
-    width: 400px;
-    height: 400px;
-    /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  width: 400px;
+  height: 400px;
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+}
+.story-container-1 {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+
+.story-container {
+  text-align: center;
+  padding: 50px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.story-title {
+  font-family: "Franklin Gothic Heavy";
+  font-size: 43px;
+  color: #3586ff;
+}
+
+.story-description {
+  width: 888px;
+  min-height: 100px;
+  font-family: "Sarabun";
+  color: #d5e6ff;
+  margin-top: 20px;
+}
+.story-image {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.story-image img {
+  width: 1900px;
+  min-height: 550px;
+}
+@media (max-width: 768px) {
+  .story-title {
+    font-size: 1.5rem;
+  }
+
+  .story-description {
+    font-size: 0.9rem;
+  }
 }
 
 @media (max-width: 600px) {
-    .gallery {
-        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    }
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
 }
 @media (max-width: 768px) {
   .hero {
